@@ -1,5 +1,5 @@
 {
-  "name": "vue-lazy-background-images",
+  "name": "onnion-vue-lazy-background-images",
   "version": "1.0.0",
   "description": "Lazy background images. Only background images.",
   "main": "main.js",

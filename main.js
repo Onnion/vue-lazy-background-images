@@ -1,2 +1,9 @@
 import VueLazyBackgroundImage from './VueLazyBackgroundImage.vue'
-module.exports = VueLazyBackgroundImage
+
+const LazyBackgroundImage = {
+    install(Vue, options) {
+      Vue.component("lazy-background", VueLazyBackgroundImage);
+    }
+  };
+
+export default LazyBackgroundImage
